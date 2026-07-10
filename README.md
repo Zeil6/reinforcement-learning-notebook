@@ -25,7 +25,7 @@
 2. **学习目标是什么？** 完整回报、一步 TD target、n-step return，还是 advantage？
 3. **是否自举？** 目标是否使用当前价值估计？
 4. **怎样表示知识？** 表格、线性函数、价值网络，还是显式策略网络？
-5. **怎样改进策略？** 贪心、ε-greedy、策略梯度，还是受约束的概率比率更新？
+5. **怎样改进策略？** greedy、ε-greedy、policy gradient，还是受约束的概率比率更新？
 
 ```mermaid
 flowchart TD
