@@ -1,14 +1,14 @@
-# Reinforcement Learning from First Principles
+# Reinforcement Learning notebook
 
-> 一份问题驱动的强化学习学习仓库：不从算法名字开始背，而是追问每个算法究竟解决了上一种方法的什么局限。
+> 一份问题驱动的强化学习学习仓库：不从算法名字开始背，而是追问每个算法究竟解决了上一种方法的什么局限！
 
 ![Focus](https://img.shields.io/badge/Focus-Bellman%20to%20PPO-2E74B5)
 ![Domain](https://img.shields.io/badge/Domain-Robotics%20RL-1E6F73)
 ![Language](https://img.shields.io/badge/Notes-Chinese-orange)
 
-## 这个仓库想证明什么
+## 建立这个仓库的目的
 
-我希望展示的不只是“学过哪些强化学习算法”，而是我能否：
+我希望能够展示的不只是“学过哪些强化学习算法”，而是我能否：
 
 - 从问题出发，解释算法为什么出现；
 - 从直觉走到公式，再把公式映射到训练代码；
@@ -19,7 +19,7 @@
 
 ## 我的统一理解框架
 
-我发现，多数强化学习算法都能用五个问题拆解：
+我发现，大多数的强化学习算法都能用五个问题拆解：
 
 1. **数据从哪里来？** 来自模型计算、当前策略采样，还是旧策略/经验回放？
 2. **学习目标是什么？** 完整回报、一步 TD target、n-step return，还是 advantage？
@@ -119,14 +119,14 @@ PPO 并不是孤立的新算法：
 
 实践记录不会只写“参数从多少改到多少”，而会解释该参数对应 MDP 或优化过程中的哪个对象，以及为什么预期它会影响结果。
 
-## 面试官快速浏览入口
+## 快速浏览入口
 
-- 想看知识结构：[课程知识地图](notes/00-learning-map.md)
-- 想看公式理解：[Bellman 固定点与迭代](notes/01-mdp-and-bellman.md)
-- 想看算法比较：[MC、TD、Sarsa 与 Q-learning](notes/02-dp-mc-td.md)
-- 想看工程连接：[PPO 与 Isaac Lab](notes/05-ppo-and-robotics.md)
-- 想看自我检验：[20 个核心问题](interview/20-questions.md)
-- 想下载完整手册：[Word 版学习手册](docs/reinforcement-learning-handbook-zh.docx)
+- 知识结构：[课程知识地图](notes/00-learning-map.md)
+- 公式理解：[Bellman 固定点与迭代](notes/01-mdp-and-bellman.md)
+- 算法比较：[MC、TD、Sarsa 与 Q-learning](notes/02-dp-mc-td.md)
+- 工程连接：[PPO 与 Isaac Lab](notes/05-ppo-and-robotics.md)
+- 自我检验：[20 个核心问题](interview/20-questions.md)
+- 下载完整手册：[Word 版学习手册](docs/reinforcement-learning-handbook-zh.docx)
 
 ## 仓库结构
 
