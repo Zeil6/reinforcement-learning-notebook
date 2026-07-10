@@ -126,7 +126,7 @@ PPO 并不是孤立的新算法：
 - 想看算法比较：[MC、TD、Sarsa 与 Q-learning](notes/02-dp-mc-td.md)
 - 想看工程连接：[PPO 与 Isaac Lab](notes/05-ppo-and-robotics.md)
 - 想看自我检验：[20 个核心问题](interview/20-questions.md)
-- 想看完整手册：[PDF 版学习手册](docs/reinforcement-learning-handbook-zh.pdf)
+- 想下载完整手册：[Word 版学习手册](docs/reinforcement-learning-handbook-zh.docx)
 
 ## 仓库结构
 
@@ -145,7 +145,6 @@ PPO 并不是孤立的新算法：
 │   └── 06-common-misconceptions.md
 ├── interview/20-questions.md
 ├── docs/
-│   ├── reinforcement-learning-handbook-zh.pdf
 │   └── reinforcement-learning-handbook-zh.docx
 └── assets/
     ├── learning-map.png

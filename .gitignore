@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python experiments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Training artifacts
+logs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Large local datasets
+data/
+datasets/
